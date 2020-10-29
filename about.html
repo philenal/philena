@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- should do this on all sites, sets width of page to follow screen width of device, sets initial zoom level-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link rel= "stylesheet" href="mystyle.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Nothing You Could Do' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact Gothic">
+	<style type="text/css">
+</style>
+<title>about</title>
+</head>
+<body>
+
+<!-- navigation bar -->
+	<nav class="navbar navbar-expand-sm navbar navbar-light sticky-top"> <!-- expand stacks vertically if on small screen -->
+
+		<!-- hamburger -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      		aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+    	</button>
+
+    	<!-- links -->
+    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  
+		  <ul class="navbar-nav mx-auto">
+		    <li class="nav-item">
+		    	<a class="nav-link" href="about.html">about</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link" href="./resume.pdf">resume</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a id = "philomena" class="nav-link" href="philomena.html">philena</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link" href="art.html">sketches</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link" href="projects.html">projects</a>
+		    </li>
+		  </ul>
+		</div>
+	</nav>
+
+<audio id = "music" src = "music.MP3"></audio>
+	<script type="text/javascript">
+		var music = document.getElementById("music");
+		music.loop = true;
+		var play = false;
+		music.volume = 0.2;
+		function playAudio() {
+			play = true
+  			music.play();
+			}
+
+		function pauseAudio() {
+			play = false;
+		  	music.pause();
+		}
+
+		function audioControl(){
+			if (play){
+				pauseAudio();
+			}
+			else{
+				playAudio();
+			}
+		}
+
+</script>
+	<div class="container-fluid">
+		<h1><button id = "button" style = 
+			"background-color: Transparent;
+		    background-repeat:no-repeat;
+		    border: none;
+		    cursor:pointer;
+		    overflow: hidden;
+		    outline:none;" 
+		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
+		    about
+		    <button id = "button" style = 
+			"background-color: Transparent;
+		    background-repeat:no-repeat;
+		    border: none;
+		    cursor:pointer;
+		    overflow: hidden;
+		    outline:none;" 
+		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button></h1>
+	
+	</div>
+<div id="about" class="container-sm">
+	<div id="photo">
+	<img src="PL.JPG" style="display: block; margin-left: auto;
+    margin-right: auto; padding: 50px">
+</div>
+	<p> <span>Hello,</span> my name is <span>Philena Liu</span> and I'm currently a freshman at MIT. In high school, I spent much of my time with the math team. Not only was math interesting, but it came with its own special, close-knit community that I love so much. Through collaborating with others on challenging problems, playing card games (the <i>best</i> source of fun) during breaks, and overall doing random things for the heck of it, I've learned and experienced so much -- and I owe it all to the math team. With that being said, I'm planning on majoring in course 18C, <span>Mathematics with Computer Science.</span> </p>
+	<p>In my free time, I like to <span>draw</span> (and more recently, animate!). I'm interested in design, especially, which is why I've taken to learning website development. Though I haven't done as much art as I would have liked to in high school, I hope to artistically vomit more in college with Borderline! Ever since quarantine, I've realized that drawing has helped me appreciate the simple -- oftentimes overlooked -- pleasures in life, and it has taught me to slow down a little and take a few deep breaths whenever I'm feeling stressed.</p>
+	<p>I also love <span>badminton!</span> Though I'm fairly bad at badminton (haha, get it?), it feels amazing to hit the birdie perfectly center with the racket. And being on the badminton team in high school was an amazing experience that gave me so many memories: cheering each other with hand hearts, bringing snacks and accidentally eating 5 Fiber One bars, ukulele/speaker jamming on the buses to meets, and almost-crying while being comforted by teammates. Playing a sport is vitalizing, but being on a sports team is a whole lot rewarding.</p>
+	<p>As for the more informal things about me: I love <span>kpop</span>, kdramas, cdramas, kvariety, cvariety, anime, etc. I perhaps spend way too much time watching shows than need be, but we don't worry about that. I've also recently been immersed into the Marvel and DC universe! Still waiting on the next season of <span>The Flash!</span></p>
+
+</div>
+
+
+</body>
+</html>

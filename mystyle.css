@@ -1,0 +1,161 @@
+
+/*margin is how far away the element's sides are from window??
+padding is how far the content is away from the element's borders??
+width: width of element's content area (portion inside padding, border, and margin of elmenet)*/
+/*body {
+  background-image: url("Cloud-Swan.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 300px 300px;
+  overflow: scroll;
+}*/
+/*h1 {
+	border-style: solid;
+	border-width: 5px 2px;
+	border-color: rgba(153, 230, 255, .4);
+	width: 170px;
+	margin: auto;
+	font-size: 2em;
+	padding: 25px;
+	text-align: center;
+	text-shadow: 2px 3px 5px horiz, vertical, blurrgba(153, 230, 255, .4);
+}
+*/
+
+ul {
+
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
+li {
+	
+  	display: inline;
+}
+
+body {
+	background-color: rgba(254,238,180,.7);
+	font-family: "Didact Gothic";
+}
+
+
+.sticky-top {
+	height: 150px;
+	background-color: rgba(255,148,112,.5);
+}
+#philomena {
+	font-size: 2vw;
+    font-weight: bold;
+    margin-right: 1vw;
+    margin-left: 3vw;
+    padding: 5px 20px;
+	font-family: "Meddon";
+	font
+}
+.nav-link{
+	font-size: 2vw;
+    font-weight: bold;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    padding: 5px;
+    font-family: "Didact Gothic";
+  }
+
+.nav-link:hover {
+    color: rgba(254,238,180,.7) !important;
+    transition-duration: .2s;
+  }
+
+
+ .container-fluid{
+ 	/*background-color: rgba(254,238,180,.7);*/
+
+ 	background-color: rgba(201,237,202,.7); /*rgba(218,243,241,.7);*/
+
+ }
+
+ h1{
+ 	height: 100px;
+ 	text-align: center;
+ 	font-size: 4vw;
+ 	color: rgba(254,238,180,1);
+ 	text-shadow: 1px 1px 0 #000;
+ }
+
+.flex-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 500px;
+  font-size: 30px;
+}
+#photo{
+  background-color: #f1f1f1;
+}
+span{
+  font-size: 1.5vw;
+  color: rgba(255,148,112,1);
+  text-shadow: 1px 1px 0 ;
+  margin: 5px;
+}
+
+.art, .proj{
+	padding: 20px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+ .art:hover {
+    opacity: 0.1;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+.proj:hover {
+	opacity: 0.1;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+  #about{
+  	margin-top: 30px;
+  	width: 600px;
+  }
+  #intro{
+    padding-top: 100px;
+    font-size: 1vw;
+  }
+  p{
+    margin-top: 30px;
+  }
+
+  a{
+    color: #000000;
+  }
+  a:hover{
+    color: rgba(255,148,112,1);
+  }
+/*
+  #project {
+  padding: 50px;
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 500px;
+  font-size: 30px;
+  }*/
+/*pseudo classes. a:hover must come after a:link and a:visited. a:active must come after a:hover*/
+/*h1 {
+  color: navy;
+  margin-left: 20px;
+}*/

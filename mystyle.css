@@ -66,6 +66,9 @@ body {
     transition-duration: .2s;
   }
 
+#project_names {
+  background-color: rgba(255,148,112,.5);
+}
 
  .container-fluid{
  	/*background-color: rgba(254,238,180,.7);*/
@@ -110,7 +113,7 @@ span{
 }
 
 .art, .proj{
-	padding: 20px;
+	  padding: 20px;
     width: 500px;
     height: 500px;
     object-fit: cover;
@@ -121,8 +124,8 @@ span{
     cursor: pointer;
     transition-duration: 0.2s;
   }
-.proj:hover {
-	opacity: 0.1;
+ #pic:hover {
+	  opacity: 0.3;
     cursor: pointer;
     transition-duration: 0.2s;
 }

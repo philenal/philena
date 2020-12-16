@@ -84,26 +84,30 @@
 		}
 
 </script>
-	<div class="container-fluid header">
-		<button id = "button1" style = 
-			"background-color: Transparent;
-		    background-repeat:no-repeat;
-		    border: none;
-		    cursor:pointer;
-		    overflow: hidden;
-		    outline:none;" 
-		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
-		    <h1>sketches</h1>
-		    <button id = "button2" style = 
-			"background-color: Transparent;
-		    background-repeat:no-repeat;
-		    border: none;
-		    cursor:pointer;
-		    overflow: hidden;
-		    outline:none;" 
-		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
-	
+<div class="container-fluid px-0 header">
+	<div class="row">
+		<button id = "button1" class= "col" style = 
+		"background-color: Transparent;
+		background-repeat:no-repeat;
+		border: none;
+		cursor:pointer;
+		overflow: hidden;
+		outline:none;
+		display: inline" 
+		type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
+		<h1 class= "col" >sketches</h1>
+		<button class= "col" id = "button2" style = 
+		"background-color: Transparent;
+		background-repeat:no-repeat;
+		border: none;
+		cursor:pointer;
+		overflow: hidden;
+		outline:none;
+		display: inline;" 
+		type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
 	</div>
+	</div>
+	
 	<div class="flex-container">
 
 		<div><img class="art" src=".\art\eggberry.GIF"></div>
@@ -129,22 +133,22 @@
 		<div><img class="art" src=".\art\braid.jpg"></div>
 		<div><img class="art" src=".\art\cactus.jpg"></div>
 	</div>
-
+	<style>
+		@media screen and (max-width: 600px) {
+		
+	  
+		#button2 {
+		  display: none !important;
+		
+		}
+		#button1 {
+			/* position: fixed !important; */
+			padding: 0 35% !important;
+			width: 200px !important;
+		}
+		}
+	</style>
 </body>
 
-<style>
-	@media screen and (max-width: 600px) {
-	
-  
-	#button2 {
-	  display: none !important;
-	
-	}
-	#button1 {
-		/* position: fixed !important; */
-		padding: 0 35% !important;
-		width: 200px !important;
-	}
-	}
-</style>
+
 </html>

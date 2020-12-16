@@ -85,8 +85,8 @@
 		}
 
 </script>
-	<div class="container-fluid">
-		<h1><button id = "button" style = 
+	<div class="container-fluid header">
+		<button id = "button1" style = 
 			"background-color: Transparent;
 		    background-repeat:no-repeat;
 		    border: none;
@@ -94,20 +94,20 @@
 		    overflow: hidden;
 		    outline:none;" 
 		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
-		    about
-		    <button id = "button" style = 
+		    <h1>about</h1>
+		    <button id = "button2" style = 
 			"background-color: Transparent;
 		    background-repeat:no-repeat;
 		    border: none;
 		    cursor:pointer;
 		    overflow: hidden;
 		    outline:none;" 
-		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button></h1>
+		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
 	
 	</div>
 <div id="about" class="container-sm">
 	<div id="photo">
-	<img src="PL.jpg" style="display: block; margin-left: auto;
+	<img id="me" src="PL.jpg" style="display: block; margin-left: auto;
     margin-right: auto; padding: 50px">
 </div>
 	<p> <span>Hello,</span> my name is <span>Philena Liu</span> and I'm currently a freshman at MIT. In high school, I spent much of my time with the math team. Not only was math interesting, but it came with its own special, close-knit community that I love so much. Through collaborating with others on challenging problems, playing card games (the <i>best</i> source of fun) during breaks, and overall doing random things for the heck of it, I've learned and experienced so much -- and I owe it all to the math team. With that being said, I'm planning on majoring in course 18C, <span>Mathematics with Computer Science.</span> </p>
@@ -117,6 +117,30 @@
 
 </div>
 
-
+<style>
+	@media screen and (max-width: 600px) {
+	
+  
+	#button2 {
+	  display: none !important;
+	
+	}
+	#button1 {
+		/* position: fixed !important; */
+		padding: 0 35% !important;
+		width: 200px !important;
+	}
+	#me {
+		width: 240px !important;
+		padding: 20px !important;
+	}
+	#photo {
+		width: 240px !important;
+	}
+	#about {
+		width: 250px !important;
+	}
+	}
+</style>
 </body>
 </html>

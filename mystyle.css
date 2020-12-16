@@ -21,6 +21,19 @@ width: width of element's content area (portion inside padding, border, and marg
 	text-shadow: 2px 3px 5px horiz, vertical, blurrgba(153, 230, 255, .4);
 }
 */
+@media screen and (max-width: 1100px) {
+	
+  
+  #philomena {
+    font-size: 20px !important;
+  
+  }
+  .nav-link{
+    font-size: 15px!important;
+    }
+
+}
+
 
 ul {
 
@@ -30,7 +43,7 @@ ul {
 }
 li {
 	
-  	display: inline;
+  	/* display: inline; */
 }
 
 body {
@@ -40,23 +53,21 @@ body {
 
 
 .sticky-top {
-	height: 150px;
+	/* height: 150px; */
 	background-color: rgba(255,148,112,.5);
 }
 #philomena {
-	font-size: 2vw;
+	font-size: 40px;
     font-weight: bold;
-    margin-right: 1vw;
-    margin-left: 3vw;
+    margin-right: 10px;
+    margin-left: 30px;
     padding: 5px 20px;
 	font-family: "Meddon";
-	font
+
 }
 .nav-link{
-	font-size: 2vw;
+	font-size: 30px;
     font-weight: bold;
-    margin-right: 1vw;
-    margin-left: 1vw;
     padding: 5px;
     font-family: "Didact Gothic";
   }
@@ -66,7 +77,7 @@ body {
     transition-duration: .2s;
   }
 
-#project_names {
+.project_names {
   background-color: rgba(255,148,112,.5);
 }
 
@@ -80,7 +91,7 @@ body {
  h1{
  	height: 100px;
  	text-align: center;
- 	font-size: 4vw;
+ 	font-size: 40px;
  	color: rgba(254,238,180,1);
  	text-shadow: 1px 1px 0 #000;
  }
@@ -95,27 +106,27 @@ body {
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   margin: 10px;
   text-align: center;
-  line-height: 500px;
+  line-height: 300px;
   font-size: 30px;
 }
 #photo{
   background-color: #f1f1f1;
 }
 span{
-  font-size: 1.5vw;
+  font-size: 20px;
   color: rgba(255,148,112,1);
   text-shadow: 1px 1px 0 ;
   margin: 5px;
 }
 
 .art, .proj{
-	  padding: 20px;
-    width: 500px;
-    height: 500px;
+	  padding: 15px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
   }
 
@@ -135,7 +146,7 @@ span{
   }
   #intro{
     padding-top: 100px;
-    font-size: 1vw;
+    font-size: 10px;
   }
   p{
     margin-top: 30px;

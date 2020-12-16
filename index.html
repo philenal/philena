@@ -87,29 +87,78 @@
 		}
 
 </script>
-	
-	<div class="container-fluid">
-		<div class="mx-auto text-center"><button id = "button" style = 
+	<div class="container-fluid philena" style="display: none">
+		philena
+	</div>
+	<div class="home container-fluid px-0">
+		<div class="mx-auto text-center">
+			<button id = "button" style = 
 			"background-color: Transparent;
 		    background-repeat:no-repeat;
 		    border: none;
 		    cursor:pointer;
 		    overflow: hidden;
-		    outline:none;" 
-		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 600px"></button></div>
+			outline:none;
+			padding: 0px" 
+			type="button" onclick="audioControl()">
+				<img id="face" src="Cloud-Swan.png" >
+		</button>
+		</div>
 	</div>
 
-	<style>
+
+<style>
+
+@media screen and (max-width: 600px) {
+	
+
+	
+	img {
+		padding: 30% 0% !important;
+		max-width: 250px !important;
+		min-width: 250px !important;
+	}
+	.home {
+		height: 60vh !important;
+	}
+}
+@media screen and (max-width: 380px) {
+	
+
+	
+	img {
+		padding: 30% 0% !important;
+		max-width: 250px !important;
+		min-width: 250px !important;
+	}
+	.home {
+		height: 60vh !important;
+	}
+
+	.philena {
+		padding: 20px;
+		display: block !important;
+		text-align: center !important;
+		background-color: rgba(255,148,112,.5) !important;
+		color: rgba(254,238,180,.7) !important;
+		font-size: 40px;
+    font-weight: bold;
+	font-family: "Meddon";
+	color: 
+	}
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
   text-align: center;
+  background-color: rgba(254,238,180,.7) !important;
+  z-index: 999;
 }
 </style>
 
-	<div class="footer">
+<div class="container-fluid footer">
   <p>click on icon for music!  <a href="https://soundcloud.com/jordan-collett-5/animal-crossing-1-pm">Animal Crossing ~ 1PM</a> by <a href="https://soundcloud.com/jordan-collett-5">jordxn</a> is licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a>.</p>
 </div>
 

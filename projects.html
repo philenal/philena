@@ -84,8 +84,8 @@
 		}
 
 </script>
-	<div class="container-fluid">
-		<h1><button id = "button" style = 
+	<div class="container-fluid header">
+		<button id = "button1" style = 
 			"background-color: Transparent;
 		    background-repeat:no-repeat;
 		    border: none;
@@ -93,15 +93,15 @@
 		    overflow: hidden;
 		    outline:none;" 
 		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
-		    projects
-		    <button id = "button" style = 
+		    <h1 >projects</h1>
+		    <button id = "button2" style = 
 			"background-color: Transparent;
 		    background-repeat:no-repeat;
 		    border: none;
 		    cursor:pointer;
 		    overflow: hidden;
 		    outline:none;" 
-		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button></h1>
+		    type="button" onclick="audioControl()"><img id="face" src="Cloud-Swan.png" style = "height: 100px"></button>
 	
 	</div>
 
@@ -109,9 +109,7 @@
 
 
 	<!-- utop -->
-		<div class="container-fluid" id="project_names" style="text-align: center; font-size: 2.5vw;
-	 	color: rgba(254,238,180,1);
-	 	text-shadow: 1px 1px 1px #000; margin-top: 50px; margin-bottom: 50px">MITx utop</div>
+		<div class="container-fluid project_names first">MITx utop</div>
 
 	 	<div class="container-sm" style="text-align: center; margin-top: 50px"> <p>Create <span>JavaScript applets</span> for graphics aiding <span>MIT’s Multivariable Calculus</span> online class. <br><span>First project: Robot Arm!</span> <br>Click to try it out!</p></div>
 
@@ -122,11 +120,7 @@
 
 
  	<!-- math modeling -->
-		<div class="container-fluid" id="project_names" style="text-align: center; font-size: 2.5vw;
- 	color: rgba(254,238,180,1);
-
-
- 	text-shadow: 1px 1px 1px #000;">mathematical modeling</div>
+		<div class="container-fluid project_names" >mathematical modeling</div>
 		<div class="container-sm" style="text-align: center; margin-top: 50px">
 
 		<p>3rd Place Team in National <span>Mathworks Math Modeling Challenge.</span> Used Excel and MATLAB to model the transition from diesel to electric trucking with the Lotka-Volterra approach. <a href= "https://m3challenge.siam.org/sites/default/files/uploads/M3%20THIRD%20PLACE_13202.pdf"> <span>Final
@@ -153,5 +147,46 @@ paper (click to view) </span></a> was written with LaTeX and presented on in an 
     </div>
   </div>
   <br> -->
+
+  <style>
+	.project_names {
+	  text-align: center !important; 
+	  font-size: 30px;
+	   color: rgba(254,238,180,1) !important;
+	   text-shadow: 1px 1px 1px #000; margin-top: 50px; margin-bottom: 50px;
+	  background-color: rgba(255,148,112,.5) !important;
+	}
+
+	.first {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+	h1 {
+		margin-bottom: 0px;
+	}
+
+	@media screen and (max-width: 600px) {
+	
+  
+	#button2 {
+	  display: none !important;
+	
+	}
+	#button1 {
+		/* position: fixed !important; */
+		padding: 0 35% !important;
+		width: 200px !important;
+	}
+
+	
+	.first {
+		/* position: relative !important; */
+	}
+  
+  }
+  
+  
+</style>
 </body>
 </html>
